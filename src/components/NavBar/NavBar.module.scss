@@ -1,0 +1,35 @@
+.Nav {
+    padding: 32px;
+    background-color: #404eed;
+
+    a {
+        text-decoration: none;
+
+        h5 {
+            color: white;
+            font-weight: 700;
+        }
+        
+    }
+
+    ul {
+        text-align: center;
+        padding: 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 0 16px;
+            
+            a {
+                color: white;
+                text-decoration: none;
+                font-weight: 600;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
